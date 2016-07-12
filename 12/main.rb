@@ -12,6 +12,14 @@ module Q12
       # 重複を取り除いて10文字なら終了
       break if str.split('').uniq.length == 10
     end
+    puts i
+
+    # 小数部分のみの場合
+    i = 1
+    while i += 1
+      # 小数点で分割し、小数部分のみを取得
+      
+    end
   end
 end
 
